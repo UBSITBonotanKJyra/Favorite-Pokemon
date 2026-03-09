@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="card">
+        <h2>PokeMart</h2>
+
+        <div *ngFor="let item of PokemonService.items">
+        <p>{{item.name}} - ₱{{item.price}}</p>
+        <button (click)="PokemonService.addToCart(item)">Add to Cart</button>
+        </div>
+    </div>
+</div>

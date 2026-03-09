@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="cards">
+        <h2>Pokemon List</h2>
+        <div *ngFor="let p of PokemonService.pokemon">
+        <li class="card">
+            <h3>{{p.name}}</h3>
+            <p>Region: {{p.region}}</p>
+            <p>Type: {{p.type}}</p>
+            <p>Held Item: {{p.heldItem}}</p>
+            <p>{{p.description}}</p>
+        </li>
+        </div>
+    </div>
+</div>
