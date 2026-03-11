@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  text-align: center;
+  text-align: left;
   margin-bottom: 40px;
 }
 
@@ -28,7 +28,7 @@ header p.select-leader {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 40px; 
-  justify-content: center;
+  justify-content: left;
   margin: 40px auto 0;
   max-width: 1200px;
 }
@@ -116,4 +116,14 @@ header p.select-leader {
   margin: 15px auto 0;
   width: 100px;
   height: auto;
+}
+nav {
+  text-align: center;
+  margin-left: 20px;
+  background-color: #017019;
+}
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 10px;
 }

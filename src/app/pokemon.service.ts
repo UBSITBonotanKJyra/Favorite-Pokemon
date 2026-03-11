@@ -5,48 +5,48 @@ import { Injectable, signal, computed } from '@angular/core';
 })
 export class PokemonService {
 
-    pokemon = [
-      {
-        name: 'Pikachu',
-        region: 'Kanto',
-        type: 'Electric',
-        heldItem: 'Light Ball',
-        description: 'A small electric Pokémon that stores electricity in its cheeks.'
-      },
-      {
-      name: 'Charizard',
-      region: 'Kanto',
-      type: 'Fire/Flying',
-      heldItem: 'Charcoal',
-      description: 'Breathes powerful flames that melt anything.'
-    },                
+  pokemon = [
     {
-      name: 'Typhlosion',
-      region: 'Johto',
+      name: 'Jigglypuff',
+      region: 'Kanto',
+      type: 'Normal/Fairy',
+      heldItem: 'Moon Stone',
+      description: 'Uses its alluring eyes to enrapture its foe, then sings a melody that lulls them to sleep.'
+    },
+    {
+      name: 'Fennekin',
+      region: 'Kalos',
       type: 'Fire',
       heldItem: 'Charcoal',
-      description: 'Creates explosive fire blasts.'
+      description: 'Eating a twig fills it with energy, and its roomy ears vent air hotter than 390 degrees Fahrenheit.'
     },
     {
-      name: 'Ampharos',
+      name: 'Bulbasaur',
+      region: 'Kanto',
+      type: 'Grass/Poison',
+      heldItem: 'Miracle Seed',
+      description: 'A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.'
+    },
+    {
+      name: 'Snorlax',
+      region: 'Kanto',
+      type: 'Normal',
+      heldItem: 'Leftovers',
+      description: 'Its stomach can digest any kind of food, even if it happens to be moldy or rotten.'
+    },
+    {
+      name: 'Ditto',
+      region: 'Kanto',
+      type: 'Normal',
+      heldItem: 'Quick Powder',
+      description: 'It can freely recombine its own cellular structure to transform into other life-forms.'
+    },
+    {
+      name: 'Wobbuffet',
       region: 'Johto',
-      type: 'Electric',
-      heldItem: 'Magnet',
-      description: 'Its glowing tail guides people in darkness.'
-    },
-    {
-      name: 'Blaziken',
-      region: 'Hoenn',
-      type: 'Fire/Fighting',
+      type: 'Psychic',
       heldItem: 'Focus Band',
-      description: 'Powerful kicks with blazing flames.'
-    },
-    {
-      name: 'Swampert',
-      region: 'Hoenn',
-      type: 'Water/Ground',
-      heldItem: 'Mystic Water',
-      description: 'Can predict storms.'
+      description: 'It desperately tries to keep its black tail hidden. It will never attack first.'
     }
   ];
 
